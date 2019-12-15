@@ -5,20 +5,20 @@
       <![CDATA[Login Done Successfully]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="104717" started-at="2019-12-08T10:04:49Z" finished-at="2019-12-08T10:06:34Z">
+  <suite name="Suite" duration-ms="219339" started-at="2019-12-15T06:37:50Z" finished-at="2019-12-15T06:41:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="104717" started-at="2019-12-08T10:04:49Z" finished-at="2019-12-08T10:06:34Z">
+    <test name="Test" duration-ms="219339" started-at="2019-12-15T06:37:50Z" finished-at="2019-12-15T06:41:29Z">
       <class name="com.rk.yt.TestCases.LoginPageTest">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@42e26948]" name="setUpSuite" is-config="true" duration-ms="518" started-at="2019-12-08T10:04:49Z" finished-at="2019-12-08T10:04:49Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="setUpSuite" is-config="true" duration-ms="7096" started-at="2019-12-15T06:37:43Z" finished-at="2019-12-15T06:37:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@42e26948]" name="setUp" is-config="true" duration-ms="23745" started-at="2019-12-08T10:04:49Z" finished-at="2019-12-08T10:05:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="setUp" is-config="true" duration-ms="117318" started-at="2019-12-15T06:37:50Z" finished-at="2019-12-15T06:39:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@42e26948]" name="verify" duration-ms="17577" started-at="2019-12-08T10:05:25Z" data-provider="data" finished-at="2019-12-08T10:05:43Z">
+        <test-method status="PASS" signature="verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="verify" duration-ms="56124" started-at="2019-12-15T06:40:00Z" data-provider="data" finished-at="2019-12-15T06:40:56Z">
           <params>
             <param index="0">
               <value>
@@ -37,18 +37,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify -->
-        <test-method status="PASS" signature="failCaptureScreen(org.testng.ITestResult)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@42e26948]" name="failCaptureScreen" is-config="true" duration-ms="23668" started-at="2019-12-08T10:05:43Z" finished-at="2019-12-08T10:06:06Z">
+        <test-method status="PASS" signature="failCaptureScreen(org.testng.ITestResult)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="failCaptureScreen" is-config="true" duration-ms="7229" started-at="2019-12-15T06:40:56Z" finished-at="2019-12-15T06:41:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify status=SUCCESS method=LoginPageTest.verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@42e26948] output=Login Done Successfully]]]>
+                <![CDATA[[TestResult name=verify status=SUCCESS method=LoginPageTest.verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9] output=Login Done Successfully]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failCaptureScreen -->
-        <test-method status="FAIL" signature="verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@42e26948]" name="verify" duration-ms="25124" started-at="2019-12-08T10:06:06Z" data-provider="data" finished-at="2019-12-08T10:06:32Z">
+        <test-method status="FAIL" signature="verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="verify" duration-ms="24000" started-at="2019-12-15T06:41:03Z" data-provider="data" finished-at="2019-12-15T06:41:27Z">
           <params>
             <param index="0">
               <value>
@@ -103,8 +103,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-G94VKJC', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52112}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 817d3cffbc0b68d37644968fdb188fc2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9d54cc7e548df0d8df3ed86a16b22a48
 *** Element info: {Using=xpath, value=//div[@id='buttons']/ytd-button-renderer/a/paper-button}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -137,22 +137,22 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify -->
-        <test-method status="PASS" signature="failCaptureScreen(org.testng.ITestResult)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@42e26948]" name="failCaptureScreen" is-config="true" duration-ms="805" started-at="2019-12-08T10:06:32Z" finished-at="2019-12-08T10:06:33Z">
+        <test-method status="PASS" signature="failCaptureScreen(org.testng.ITestResult)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="failCaptureScreen" is-config="true" duration-ms="627" started-at="2019-12-15T06:41:27Z" finished-at="2019-12-15T06:41:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify status=FAILURE method=LoginPageTest.verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@42e26948] output={null}]]]>
+                <![CDATA[[TestResult name=verify status=FAILURE method=LoginPageTest.verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failCaptureScreen -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@42e26948]" name="tearDown" is-config="true" duration-ms="1185" started-at="2019-12-08T10:06:33Z" finished-at="2019-12-08T10:06:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="tearDown" is-config="true" duration-ms="1513" started-at="2019-12-15T06:41:28Z" finished-at="2019-12-15T06:41:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.rk.yt.TestCases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
