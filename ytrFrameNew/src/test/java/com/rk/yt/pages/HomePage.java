@@ -1,7 +1,5 @@
 package com.rk.yt.pages;
 
-import org.openqa.selenium.By;
-
 public class HomePage extends TestBase{
 	
 
@@ -19,4 +17,4 @@ public class HomePage extends TestBase{
 //		
 }
 
-}}
+}

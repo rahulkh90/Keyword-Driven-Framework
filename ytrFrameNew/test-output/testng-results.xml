@@ -1,77 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Login Done Successfully]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="219339" started-at="2019-12-15T06:37:50Z" finished-at="2019-12-15T06:41:29Z">
+  <suite name="Default suite" duration-ms="5803" started-at="2019-12-18T15:46:27Z" finished-at="2019-12-18T15:46:33Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="219339" started-at="2019-12-15T06:37:50Z" finished-at="2019-12-15T06:41:29Z">
-      <class name="com.rk.yt.TestCases.LoginPageTest">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="setUpSuite" is-config="true" duration-ms="7096" started-at="2019-12-15T06:37:43Z" finished-at="2019-12-15T06:37:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="setUp" is-config="true" duration-ms="117318" started-at="2019-12-15T06:37:50Z" finished-at="2019-12-15T06:39:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="verify" duration-ms="56124" started-at="2019-12-15T06:40:00Z" data-provider="data" finished-at="2019-12-15T06:40:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[thisisdemmo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[demo@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Login Done Successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verify -->
-        <test-method status="PASS" signature="failCaptureScreen(org.testng.ITestResult)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="failCaptureScreen" is-config="true" duration-ms="7229" started-at="2019-12-15T06:40:56Z" finished-at="2019-12-15T06:41:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verify status=SUCCESS method=LoginPageTest.verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9] output=Login Done Successfully]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- failCaptureScreen -->
-        <test-method status="FAIL" signature="verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="verify" duration-ms="24000" started-at="2019-12-15T06:41:03Z" data-provider="data" finished-at="2019-12-15T06:41:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[thisisdemmo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[demo@1234]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+    <test name="Default test" duration-ms="5803" started-at="2019-12-18T15:46:27Z" finished-at="2019-12-18T15:46:33Z">
+      <class name="com.rk.yt.TestCases.FlipKartCase1">
+        <test-method status="FAIL" signature="loginSearch()[pri:0, instance:com.rk.yt.TestCases.FlipKartCase1@3e6fa38a]" name="loginSearch" duration-ms="5731" started-at="2019-12-18T15:46:27Z" finished-at="2019-12-18T15:46:33Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='buttons']/ytd-button-renderer/a/paper-button' (tried for 20 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G94VKJC', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00EFEB13+1501971]
+Ordinal0 [0x00E7F6D1+980689]
+Ordinal0 [0x00E0765F+489055]
+Ordinal0 [0x00D9F2F4+62196]
+Ordinal0 [0x00D9BCDA+48346]
+Ordinal0 [0x00DB9800+169984]
+Ordinal0 [0x00DB942D+169005]
+Ordinal0 [0x00DB78EB+162027]
+Ordinal0 [0x00DA0AC7+68295]
+Ordinal0 [0x00DA1B40+72512]
+Ordinal0 [0x00DA1AD9+72409]
+Ordinal0 [0x00E98F37+1085239]
+GetHandleVerifier [0x00F9D7ED+503293]
+GetHandleVerifier [0x00F9D580+502672]
+GetHandleVerifier [0x00FA46AC+531644]
+GetHandleVerifier [0x00F9DFFA+505354]
+Ordinal0 [0x00E90606+1050118]
+Ordinal0 [0x00E9047F+1049727]
+Ordinal0 [0x00E9AF9B+1093531]
+Ordinal0 [0x00E9B103+1093891]
+Ordinal0 [0x00E9A095+1089685]
+BaseThreadInitThunk [0x760A0419+25]
+RtlGetAppContainerNamedObjectPath [0x77CA662D+237]
+RtlGetAppContainerNamedObjectPath [0x77CA65FD+189]
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='buttons']/ytd-button-renderer/a/paper-button' (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.rk.yt.utilities.Helper.waitForElementClickable(Helper.java:47)
-at com.rk.yt.pages.LoginPage.login(LoginPage.java:37)
-at com.rk.yt.TestCases.LoginPageTest.verify(LoginPageTest.java:22)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G94VKJC', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00EFEB13+1501971]
+Ordinal0 [0x00E7F6D1+980689]
+Ordinal0 [0x00E0765F+489055]
+Ordinal0 [0x00D9F2F4+62196]
+Ordinal0 [0x00D9BCDA+48346]
+Ordinal0 [0x00DB9800+169984]
+Ordinal0 [0x00DB942D+169005]
+Ordinal0 [0x00DB78EB+162027]
+Ordinal0 [0x00DA0AC7+68295]
+Ordinal0 [0x00DA1B40+72512]
+Ordinal0 [0x00DA1AD9+72409]
+Ordinal0 [0x00E98F37+1085239]
+GetHandleVerifier [0x00F9D7ED+503293]
+GetHandleVerifier [0x00F9D580+502672]
+GetHandleVerifier [0x00FA46AC+531644]
+GetHandleVerifier [0x00F9DFFA+505354]
+Ordinal0 [0x00E90606+1050118]
+Ordinal0 [0x00E9047F+1049727]
+Ordinal0 [0x00E9AF9B+1093531]
+Ordinal0 [0x00E9B103+1093891]
+Ordinal0 [0x00E9A095+1089685]
+BaseThreadInitThunk [0x760A0419+25]
+RtlGetAppContainerNamedObjectPath [0x77CA662D+237]
+RtlGetAppContainerNamedObjectPath [0x77CA65FD+189]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.rk.yt.TestCases.FlipKartCase1.loginSearch(FlipKartCase1.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -97,62 +124,13 @@ at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='buttons']/ytd-button-renderer/a/paper-button"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-G94VKJC', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9d54cc7e548df0d8df3ed86a16b22a48
-*** Element info: {Using=xpath, value=//div[@id='buttons']/ytd-button-renderer/a/paper-button}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 28 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify -->
-        <test-method status="PASS" signature="failCaptureScreen(org.testng.ITestResult)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="failCaptureScreen" is-config="true" duration-ms="627" started-at="2019-12-15T06:41:27Z" finished-at="2019-12-15T06:41:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verify status=FAILURE method=LoginPageTest.verify(java.lang.String, java.lang.String)[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- failCaptureScreen -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rk.yt.TestCases.LoginPageTest@657c8ad9]" name="tearDown" is-config="true" duration-ms="1513" started-at="2019-12-15T06:41:28Z" finished-at="2019-12-15T06:41:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rk.yt.TestCases.LoginPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginSearch -->
+      </class> <!-- com.rk.yt.TestCases.FlipKartCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
